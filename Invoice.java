@@ -2,10 +2,10 @@
 
 public class Invoice implements Payable
 {
-   private String partNumber; 
-   private String partDescription;
-   private int quantity;
-   private double pricePerItem;
+   private static String partNumber; 
+   private static String partDescription;
+   private static int quantity;
+   private static double pricePerItem;
 
    // four-argument constructor
    public Invoice( String part, String description, int count, 
