@@ -7,12 +7,12 @@ public abstract class Employee implements Payable
    private String socialSecurityNumber;
 
    // Constructor
-   public Employee( String first, String middle, String last, String ssn )
+   public Employee( String first, String middle, String lastName, String ssn )
    {
       if (middle != "")
             middle = " " + middle;
       firstName = first + middle;
-      lastName = last;
+      this.lastName = lastName;
       socialSecurityNumber = ssn;
    } 
 
